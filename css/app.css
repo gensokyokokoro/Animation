@@ -1,0 +1,273 @@
+
+.row {
+  display: flex;
+}
+
+p.column {
+  flex: 50%;
+}
+hr{
+  max-width: 100%;
+}
+
+body {
+  background: #fff;
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+   color: #545454;
+   font-size: 16px;
+   line-height: 1.5;
+   margin: 0 auto;
+
+background:linear-gradient(#b3daf2, #7a7ebf, #253f9c, #233780)
+
+}
+
+
+nav ul li a span {
+	position: absolute; left: 580px; top: 29px;
+	display: none;
+}
+
+nav ul li a {
+	display: block; width: 120px; height: 25px;
+  margin-bottom: 25px;
+}
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+img.logo{
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+nav ul li a span {
+	position: absolute; left: 580px; top: 29px;
+	display: none;
+}
+
+nav ul li a {
+	display: block; width: 120px; height: 25px;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* These are to shape all the different tabs */
+
+a:hover:nth-child(1) {
+background: radial-gradient(#14913a, #014f3f);
+border-style: ridge;
+border-color: #4b4c47;
+}
+
+	nav ul li:nth-child(1) a {
+		background: linear-gradient(#14913a, #203455);
+      border-radius: 50%;
+      height: 120px;
+    border-style: ridge;
+    border-color: orange;
+    color: #f7e6a1;
+	}
+	nav ul li:nth-child(2) a {
+    background: linear-gradient(#406db8, #2b4878);
+    border-radius: 50%;
+    height: 120px;
+    border-style: ridge;
+    border-color: #4b4c47;
+	}
+	nav ul li:nth-child(3) a {
+    background: linear-gradient(#406db8, #2b4878);
+    border-radius: 50%;
+    height: 120px;
+    border-style: ridge;
+    border-color: #4b4c47;
+	}
+	nav ul li:nth-child(4) a {
+    background: linear-gradient(#406db8, #2b4878);
+    border-radius: 50%;
+    height: 120px;
+    border-style: ridge;
+    border-color: #4b4c47;
+	}
+
+
+
+
+
+
+
+
+/* properties like spacing, display, etc*/
+
+nav ul {
+	list-style: none; overflow: hidden; position: relative;
+}
+	nav ul li {
+		float: left; margin: 0 10px 0 0;
+	}
+
+nav li {
+  display: inline;
+  padding: 20px;
+  color: #a9edff;
+    margin-bottom: 50px;
+  }
+
+  nav a.link {
+    color: #4b4c47;
+      text-align: center;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  height: 95px;
+  border-color: #4b4c47;
+
+  color: #a9edff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* text properties */
+
+h1.aboutus {
+  font-family: all-round-gothic, sans-serif;
+font-weight: 200;
+font-style: normal;
+  color: #a9edff;
+  font-size: 40px;
+  text-align: center;
+}
+h2 {
+  font-family: all-round-gothic, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #14cc2d;
+  font-size: 18px;
+}
+h3 {
+  font-family: all-round-gothic, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #a9edff;
+  font-size: 24px;}
+
+p.aboutus {
+  margin: 0 auto;
+  text-align:center;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a9edff;
+  font-size: 24px;
+  max-width: 500px;
+
+}
+a:link {
+  text-decoration: none;
+  color: #a9edff;
+  font-family: 'Kavivanar', cursive;
+  text-align: center;
+
+}
+
+a:visited {
+  color: #C9A676;
+}
+
+a:hover {
+  background: linear-gradient(#34e3aa, black);
+  border-style: ridge;
+  border-color: #4b4c47;
+  color: #34e3aa;
+}
+
+.image {
+    position: relative;
+}
+
+img.storefront {
+  width: 100%;
+  background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 2em;
+
+}
+
+div.overlaytext {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: all-round-gothic, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    top: 50px;
+    width: 50%;
+    background-color: #233780;
+    background-size:contain;
+
+}
+
+
+
+@media only screen and (max-width: 710px) {
+
+    body{max-width: 500px;
+         min-width: 250px;}
+    div.overlaytext { font-size: 2em;}
+    p.aboutus{ font-size: 16px; }
+    h1.aboutus {font-size: 28px;}
+
+}
